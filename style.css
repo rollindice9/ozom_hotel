@@ -1,0 +1,498 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.img1{
+    width: 100%;
+    background-image: url('./IMG/hotel.jpg');
+    position: relative;
+}
+
+
+.position{
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    background-color: #ddd;
+    width: 100%;
+}
+
+.nav-bac{
+    background-color: white;
+    color: black;
+}
+
+.img1{
+    width: 100%;
+}
+
+.img1 h2{ 
+    font-size: 40px;
+    color: whitesmoke;
+    animation-name: example;
+    position: relative;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes example {
+    0%{
+        left: 0px;
+        
+
+    }
+
+    25%{
+        color: red;
+    }
+
+    50%{
+        left:200px;
+        
+    
+    }
+
+    75%{
+        transform: rotateX(360deg);
+        
+    }
+
+    100%{
+        left: 0px;
+        bottom: 0px;
+    }
+}
+
+
+
+
+
+@keyframes header4 {
+    0%{
+        left: 0px;
+        
+
+    }
+
+    25%{
+        color: rgb(16, 192, 139);
+    }
+
+    50%{
+        left:200px;
+        
+    
+    }
+
+    75%{
+        transform: rotateX(360deg);
+        
+    }
+
+    100%{
+        left: 0px;
+        bottom: 0px;
+    }
+}
+
+
+
+.img1 img{
+    width: 100%;
+}
+
+.img1 h4{
+    color: whitesmoke;
+    text-align: center;
+    animation-name: header4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+nav ul{
+    display: flex;
+    justify-content: start;
+}
+
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+}
+
+
+nav a:hover{
+    background-color: white;
+    color: gray;
+}
+
+
+.main{
+    
+    padding-top: 5% ;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.left{
+    width: 65%;
+    
+}
+
+
+.left h2{
+  text-align: center;
+  font-weight: 100;
+  line-height: 2;
+}
+
+
+.left p{
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.span1{
+    background-color: black;
+    color: white;
+    padding: 3px 8px;
+}
+
+.left h5{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+.fa-bed{
+    font-size: 20px;
+    color: #607DA8;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+
+.img2{
+    width: 100%;
+    padding: 10px;
+}
+
+.img2 img{
+    width:100% ;
+    
+}
+
+.img2 img:hover{
+    box-shadow: 2px 5px 5px 8px rgb(179, 176, 176);
+    transform: scaleX(115%);
+    transition-duration: 1s;
+    
+}
+
+.left2{
+    margin-bottom: 50px;
+    margin-top: 40px;
+    background-color: rgb(162, 165, 170);
+}
+
+
+
+.img3{
+    width: 100%;
+    box-shadow: 2px 1px 8px 5px #f1f1f1;
+}
+
+
+.img3 img{
+    width: 100%;
+}
+
+
+.form{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+
+.form h3{
+    letter-spacing: 3px;
+    color: #F44336;
+}
+
+
+.border4{
+    background-color: orangered;
+    padding: 4px;
+    border-radius: 8px;
+    margin: 10.5px 0px;
+    width: 10%;
+}
+
+
+.names{
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+form select{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+.submit{
+    width: 10%;
+    margin-top: 20px;
+    padding: 11px;
+    text-align: center;
+    color:white ;
+    background-color: rgb(94, 77, 77);
+    border: none;
+    border-radius: 8px;
+}
+
+
+.submit:hover{
+    background-color: #a3a2a2;
+    color:black;
+}
+
+.right{
+    width: 30%;
+    
+    
+}
+
+.rite1{
+    width: 100%;
+    box-shadow: 2px 2px 5px 2px #dddd;
+}
+
+.rite1 img{
+    width: 100%;
+}
+
+.rite2{
+    margin-bottom: 30px;
+    box-shadow: 2px 5px 5px 2px #ddd;
+}
+
+.img4{
+    width: 100%;
+}
+
+.img4 img{
+    width: 100%;
+}
+
+
+.stars{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.star{
+    padding: 2px 5px;
+    color: gold;
+}
+
+
+.rite3{
+    margin-top: 50px;
+    width: 100%;
+    padding-left: 20px;
+    box-shadow: 2px 5px 5px 2px #dddd;
+}
+
+.border{
+    background-color: orangered;
+    padding: 4px;
+    border-radius: 8px;
+    margin: 10.5px 0px;
+    width: 20%;
+}
+
+
+.rite3 h2{
+    letter-spacing: 3px;
+    color: #F44336;
+}
+
+.img5{
+    width: 100%;
+}
+
+.img5 img{
+    width: 100%;
+}
+
+.con1{
+    background-color: #ddd;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.border2{
+    padding: 4px;
+    background-color: #F44336;
+    width: 5%;
+    border-radius: 5px;
+
+}
+
+
+.con1 h2{
+    letter-spacing: 3px ;
+    color: brown;
+    margin-bottom: 10px;
+    
+}
+
+
+.con1 p{
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 2px;
+}
+
+.pgh{
+    color: #607DA8;
+    
+}
+
+
+.flex5{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parflex{
+width:40% ;
+}
+
+.imgflex{
+width: 40%;
+}
+
+
+.imgflex img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.rite5{
+    box-shadow: 2px 5px 8px 5px #ddd;
+    margin-top: 12%;
+    width: 100%;
+    
+}
+
+.spans{
+    padding: 10px;
+}
+
+.alspan{
+    width: 100%;
+}
+
+.rite5 h3{
+    color: white;
+
+    
+}
+.rite5 i{
+    padding-right: 5px;
+    font-size: 19px;
+}
+
+.fa-facebook{
+    color: rgb(76, 76, 248);
+}
+.fa-instagram{
+    color: rgb(236, 14, 236);
+}
+.fa-whatsapp{
+    color: #18CC29;
+}
+.fa-twitter{
+    color: rgb(76, 76, 248);
+}
+
+.fa-thumbs-up{
+    padding-left: 5px;
+    color: #607DA8;
+}
+
+.header{
+    padding: 20px;
+    background-color: rgb(59, 57, 57);
+
+}
+
+.main2{
+    background-color: #F1F1F1;
+    padding-top: 8%;
+}
+
+
+
+
+footer{
+    margin-top: 4px;
+    padding: 50px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+
+@media screen and (max-width:425px){
+    .right{
+        display: none;
+    }
+
+    .flex{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .position{
+        bottom: 20%;
+        left: 10px;
+        width: 50%;
+    }
+
+    .img1 h2{
+        font-size: 20px;
+    }
+
+    .submit{
+        width: 20%;
+    }
+
+  
+}
